@@ -1,0 +1,458 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Moo Jin Kim</title>
+
+    <meta name="author" content="Moo Jin Kim">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154855388-1"></script>
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G43FV8R8VQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G43FV8R8VQ');
+  </script>
+  <body>
+    <table style="width:100%;max-width:850px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p style="text-align: center;">
+                  <name>Moo Jin Kim</name>
+                  <br>
+                  moojink at cs dot stanford dot edu
+                </p>
+                <p>
+                  I am a final-year Computer Science Ph.D. student at Stanford University, advised by <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">Chelsea Finn</a> and <a href="https://cs.stanford.edu/~pliang/" target="_blank">Percy Liang</a>. I conduct research in NLP, robotics, and machine learning.
+                </p>
+                <p>
+                  I currently work on LLM post-training for <a href="https://marin.community/" target="_blank">Marin</a> (Stanford’s open-source foundation model project led by Percy Liang), focusing on synthetic data and distillation for reasoning.
+                </p>
+                <p>
+                  Previously, I built OpenVLA, an open-source vision-language-action model that became the <a href="https://huggingface.co/models?pipeline_tag=robotics&sort=downloads" target="_blank">#1 most downloaded robotics model on Hugging Face</a> (17.5M+ downloads, 6.7K stars, 804 forks). I also developed post-training techniques for VLAs and video diffusion transformers which produced state-of-the-art robot policies with strong community adoption: <a href="https://github.com/moojink/openvla-oft" target="_blank">OpenVLA-OFT</a> (235K+ downloads, 1.3K stars) and <a href="https://github.com/nvlabs/cosmos-policy" target="_blank">Cosmos Policy</a> (30K+ downloads, 850 stars).
+                </p>
+                <p>
+                  Before my Ph.D. studies, I graduated <i>summa cum laude</i> from UCLA with a B.S. in Computer Science. I also received an M.S. in Computer Science from Stanford, where I was one of five students in my graduating class supported by the <a href="https://news.stanford.edu/report/2021/09/24/15-stanford-graduate-students-named-siebel-scholars/" target="_blank">Siebel Scholarship</a>.
+                </p>
+                <p style="text-align:center">
+                  <a href="https://scholar.google.com/citations?user=ZKRs0oEAAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://twitter.com/moo_jin_kim" target="_blank">Twitter</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/moojink/" target="_blank">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/moojink/" target="_blank">GitHub</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:40%;max-width:40%">
+                <a href="images/moojin.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/moojin.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Research Projects</h2>
+                <!-- <p>
+                  I am currently interested in leveraging multimodal foundation models to learn high-performing, generalizable policies in robotics.
+                </p> -->
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='cosmos_policy_video'><video  width=200px height=100% muted autoplay loop>
+                  <source src="images/cosmos_policy_short_teaser.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://research.nvidia.com/labs/cosmos-lab/cosmos-policy/" target="_blank">
+                  <span class="papertitle">Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning</span>
+                </a>
+                <br>
+                <strong>Moo Jin Kim</strong>,
+                <a href="https://yihuai-gao.github.io/" target="_blank">Yihuai Gao</a>,
+                <a href="https://tsungyilin.info/" target="_blank">Tsung-Yi Lin</a>,
+                <a href="https://yenchenlin.me/" target="_blank">Yen-Chen Lin</a>,
+                <a href="https://gyhandy.github.io/" target="_blank">Yunhao Ge</a>,
+                <a href="https://scholar.google.com/citations?user=K9_W9qoAAAAJ&hl=en" target="_blank">Grace Lam</a>,
+                <a href="https://cs.stanford.edu/~pliang/" target="_blank">Percy Liang</a>,
+                <a href="https://shurans.github.io/" target="_blank">Shuran Song</a>,
+                <a href="https://mingyuliu.net/" target="_blank">Ming-Yu Liu</a>,
+                <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">Chelsea Finn</a>,
+                <a href="https://www.gujinwei.org/" target="_blank">Jinwei Gu</a>
+                <br>
+                <em>ICLR 2026</em> &nbsp; <font color="red">(Top 2% of submissions by reviewer score)</font>
+                <br>
+                <a href="https://research.nvidia.com/labs/cosmos-lab/cosmos-policy/" target="_blank">project website</a> /
+                <a href="https://arxiv.org/abs/2601.16163" target="_blank">arXiv</a> /
+                <a href="https://github.com/nvlabs/cosmos-policy" target="_blank">code</a> /
+                <a href="https://huggingface.co/collections/nvidia/cosmos-policy" target="_blank">models & data</a>
+                <br>
+                <p>We present a straightforward method for converting a latent video diffusion model into a robotic control system. Our approach generates robot actions as latent frames within the video model's diffusion process while also producing future state and value estimates for model-based planning. We achieve state-of-the-art performance on simulation benchmarks (98.5% SR on LIBERO, 67.1% SR on RoboCasa) and surpass diffusion policy and recent vision-language-action models in real-world bimanual manipulation tasks.</p>
+              </td>
+            </tr>
+
+            <tr onmouseout="openvla_oft_stop()" onmouseover="openvla_oft_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='openvla_oft_video'><video  width=200px height=100% muted autoplay loop>
+                  <source src="images/openvla_oft_short_teaser.mov" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://openvla-oft.github.io/" target="_blank">
+                  <span class="papertitle">Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success</span>
+                </a>
+                <br>
+                <strong>Moo Jin Kim</strong>,
+                <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">Chelsea Finn</a>,
+                <a href="https://cs.stanford.edu/~pliang/" target="_blank">Percy Liang</a>
+                <br>
+                <em>RSS 2025</em>
+                <br>
+                <a href="https://openvla-oft.github.io/" target="_blank">project website</a> /
+                <a href="https://arxiv.org/abs/2502.19645" target="_blank">arXiv</a> /
+                <a href="https://github.com/moojink/openvla-oft" target="_blank">code</a> /
+                <a href="https://huggingface.co/moojink?search_models=oft" target="_blank">models</a>
+                <br>
+                <p>We introduce an Optimized Fine-Tuning (OFT) recipe for vision-language-action models that enables the 7B-parameter OpenVLA model to generate actions 25-50x faster and successfully execute language-driven bimanual manipulation tasks on a new robot with enhanced success rates. OpenVLA-OFT achieves state-of-the-art 97.1% average success rate on the LIBERO simulation benchmark and also outperforms &pi;<sub>0</sub>, RDT-1B, Diffusion Policy, and ACT in our real-world ALOHA robot experiments.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='cotvla_video'><video  width=200px height=100% muted autoplay loop>
+                  <source src="images/cot_vla_teaser.m4v" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://cot-vla.github.io/" target="_blank">
+                  <span class="papertitle">CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models</span>
+                </a>
+                <br>
+                <a href="https://qingqing-zhao.github.io/" target="_blank">Qingqing Zhao</a>,
+                <a href="https://scholar.google.com/citations?user=OI7zFmwAAAAJ&hl=en" target="_blank">Yao Lu</a>,
+                <strong>Moo Jin Kim</strong>,
+                <a href="https://zipengfu.github.io/" target="_blank">Zipeng Fu</a>,
+                <a href="https://scholar.google.com/citations?user=Q1csT-8AAAAJ&hl=en" target="_blank">Zhuoyang Zhang</a>,
+                <a href="https://scholar.google.com/citations?user=eXqOR10AAAAJ&hl=zh-CN" target="_blank">Yecheng Wu</a>,
+                <a href="https://mli0603.github.io/" target="_blank">Max Li</a>,
+                <a href="https://scholar.google.com/citations?user=ks-bHqsAAAAJ&hl=en" target="_blank">Qianli Ma</a>,
+                <a href="https://hanlab.mit.edu/songhan" target="_blank">Song Han</a>,
+                <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">Chelsea Finn</a>,
+                <a href="https://ankurhanda.github.io/" target="_blank">Ankur Handa</a>,
+                <a href="https://mingyuliu.net/" target="_blank">Ming-Yu Liu</a>,
+                <a href="https://xiangdonglai.github.io/" target="_blank">Donglai Xiang*</a>,
+                <a href="https://stanford.edu/~gordonwz/" target="_blank">Gordon Wetzstein*</a>,
+                <a href="https://tsungyilin.info/" target="_blank">Tsung-Yi Lin*</a>
+                <br>
+                <em>CVPR 2025</em>
+                <br>
+                <a href="https://cot-vla.github.io/" target="_blank">project website</a> /
+                <a href="https://arxiv.org/abs/2503.22020" target="_blank">arXiv</a>
+                <br>
+                * <i>equal advising</i>
+                <br>
+                <p>We introduce CoT-VLA, a vision-language-action model that incorporates explicit visual chain-of-thought reasoning by predicting future image frames auto-regressively as visual goals before generating action sequences. CoT-VLA outperforms prior state-of-the-art VLAs by 17% in real-world manipulation tasks and 6% in simulation benchmarks.</p>
+              </td>
+            </tr>
+
+            <tr onmouseout="openvla_stop()" onmouseover="openvla_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='openvla_video'><video  width=200px height=100% muted autoplay loop>
+                  <source src="images/openvla_short_teaser.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://openvla.github.io/" target="_blank">
+                  <span class="papertitle">OpenVLA: An Open-Source Vision-Language-Action Model</span>
+                </a>
+                <br>
+                <strong>Moo Jin Kim*</strong>,
+                <a href="https://kpertsch.github.io/" target="_blank">Karl Pertsch*</a>,
+                <a href="https://www.siddkaramcheti.com/" target="_blank">Siddharth Karamcheti*</a>,
+                <a href="https://tedxiao.me/" target="_blank">Ted Xiao</a>,
+                <a href="https://abalakrishna123.github.io/" target="_blank">Ashwin Balakrishna</a>,
+                <a href="https://suraj-nair-1.github.io/" target="_blank">Suraj Nair</a>,
+                <a href="https://rmrafailov.github.io/" target="_blank">Rafael Rafailov</a>,
+                <a href="" target="_blank">Ethan Foster</a>,
+                <a href="https://scholar.google.com/citations?user=K9_W9qoAAAAJ&hl=en" target="_blank">Grace Lam</a>,
+                <a href="https://www.linkedin.com/in/pannag-sanketi-bb91142" target="_blank">Pannag Sanketi</a>,
+                <a href="https://quanvuong.github.io/" target="_blank">Quan Vuong</a>,
+                <a href="https://aicenter.stanford.edu/people/thomas-kollar" target="_blank">Thomas Kollar</a>,
+                <a href="https://www.benburchfiel.com/" target="_blank">Benjamin Burchfiel</a>,
+                <a href="https://groups.csail.mit.edu/locomotion/russt.html" target="_blank">Russ Tedrake</a>,
+                <a href="https://dorsa.fyi/" target="_blank">Dorsa Sadigh</a>,
+                <a href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank">Sergey Levine,</a>
+                <a href="https://cs.stanford.edu/~pliang/" target="_blank">Percy Liang</a>,
+                <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">Chelsea Finn</a>
+                <br>
+                <em>CoRL 2024</em> &nbsp; <font color="red"><strong>(Outstanding Paper Award Finalist: Top 6 papers)</strong></font>
+                <br>
+                <a href="https://openvla.github.io/" target="_blank">project website</a> /
+                <a href="https://arxiv.org/abs/2406.09246" target="_blank">arXiv</a> /
+                <a href="https://github.com/openvla/openvla" target="_blank">code</a> /
+                <a href="https://huggingface.co/openvla" target="_blank">models</a>
+                <br>
+                * <i>co-first authorship</i>
+                <br>
+                <p>We introduce OpenVLA, a 7B-parameter open-source vision-language-action model (VLA), pretrained on 970k robot episodes from the Open X-Embodiment dataset. OpenVLA sets a new state of the art for generalist robot manipulation policies. It supports controlling multiple robots out of the box and can be quickly adapted to new robot setups via parameter-efficient fine-tuning. OpenVLA models, code, and training data are fully open-source.</p>
+              </td>
+            </tr>
+
+            <tr onmouseout="rtx_stop()" onmouseover="rtx_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='rtx_video'><video  width=200px height=100% muted autoplay loop>
+                  <source src="images/rtx_video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://robotics-transformer-x.github.io/" target="_blank">
+                  <span class="papertitle">Open X-Embodiment: Robotic Learning Datasets and RT-X Models</span>
+                </a>
+                <br>
+                <a href="https://robotics-transformer-x.github.io/" target="_blank">Open X-Embodiment Collaboration</a>,
+                ... ,
+                <strong>Moo Jin Kim</strong>,
+                ...
+                <br>
+                <em>IEEE ICRA 2024</em> &nbsp; <font color="red"><strong>(Best Conference Paper Award)</strong></font>
+                <br>
+                <a href="https://robotics-transformer-x.github.io/" target="_blank">project website</a> /
+                <!-- <a href="https://arxiv.org/abs/2308.12952" target="_blank">arXiv</a> -->
+                <a href="https://robotics-transformer-x.github.io/paper.pdf" target="_blank">paper</a> /
+                <a href="https://www.deepmind.com/blog/scaling-up-learning-across-many-different-robot-types" target="_blank">blog post</a> /
+                <a href="https://docs.google.com/spreadsheets/d/1rPBD77tk60AEIGZrGSODwyyzs5FgCU9Uz3h-3_t2A9g/edit#gid=0" target="_blank">data</a>
+                <br>
+                <i>authors listed in alphabetical order;<br>project led by <a href="https://quanvuong.github.io/" target="_blank">Quan Vuong</a> and <a href="https://kpertsch.github.io/" target="_blank">Karl Pertsch</a>;<br> Stanford evaluations led by <strong>Moo Jin Kim</strong> and Max Du</i>
+                <br>
+                <p>We introduce the Open X-Embodiment Dataset, the largest robot learning dataset to date with 1M+ real robot trajectories, spanning 22 robot embodiments. We train large, Transformer-based policies on the dataset (RT-1-X, RT-2-X) and show that co-training with our diverse dataset substantially improves performance.</p>
+              </td>
+            </tr>
+
+            <tr onmouseout="bridgev2_stop()" onmouseover="bridgev2_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='bridgev2_video'><video  width=200px height=100% muted autoplay loop>
+                  <source src="images/bridgev2_video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://rail-berkeley.github.io/bridgedata/" target="_blank">
+                  <span class="papertitle">BridgeData V2: A Dataset for Robot Learning at Scale</span>
+                </a>
+                <br>
+                <a href="https://homerwalke.com/" target="_blank">Homer Walke</a>,
+                <a href="https://kevin.black/" target="_blank">Kevin Black</a>,
+                <a href="https://www.berkeley.edu/" target="_blank">Abraham Lee</a>,
+                <strong>Moo Jin Kim</strong>,
+                <a href="https://www.maximiliandu.com/" target="_blank">Max Du</a>,
+                <a href="https://chongyi-zheng.github.io/" target="_blank">Chongyi Zheng</a>,
+                <a href="https://tonyzhaozh.github.io/" target="_blank">Tony Zhao</a>,
+                <a href="https://www.berkeley.edu/" target="_blank">Philippe Hansen-Estruch</a>,
+                <a href="https://quanvuong.github.io/" target="_blank">Quan Vuong</a>,
+                <a href="https://scholar.google.com/citations?user=YTO4ex4AAAAJ&hl=en" target="_blank">Andre He</a>,
+                <a href="https://people.eecs.berkeley.edu/~vmyers/" target="_blank">Vivek Myers</a>,
+                <a href="https://kuanfang.github.io/" target="_blank">Kuan Fang</a>,
+                <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">Chelsea Finn</a>,
+                <a href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank">Sergey Levine</a>
+                <br>
+                <em>CoRL 2023</em>
+                <br>
+                <a href="https://rail-berkeley.github.io/bridgedata/" target="_blank">project website</a> /
+                <a href="https://arxiv.org/abs/2308.12952" target="_blank">arXiv</a>
+                <br>
+                <p>We introduce BridgeData V2, a large and diverse dataset of robotic manipulation behaviors designed to facilitate research on scalable robot learning. BridgeData V2 contains 60,096 trajectories collected across 24 environments on a publicly available low-cost robot.</p>
+              </td>
+            </tr>
+
+
+            <tr onmouseout="spartn_stop()" onmouseover="spartn_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='spartn_video'><video  width=200px height=100% muted autoplay loop>
+                  <source src="images/spartn_video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://bland.website/spartn/" target="_blank">
+                  <span class="papertitle">NeRF in the Palm of Your Hand: Corrective Augmentation for Robotics via Novel-View Synthesis</span>
+                </a>
+                <br>
+                <a href="https://bland.website/" target="_blank">Allan Zhou*</a>,
+                <strong>Moo Jin Kim*</strong>,
+                <a href="https://liruiw.github.io/" target="_blank">Lirui Wang</a>,
+                <a href="https://www.peteflorence.com/" target="_blank">Pete Florence</a>,
+                <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">Chelsea Finn</a>
+                <br>
+                <em>CVPR 2023</em>
+                <br>
+                <a href="https://bland.website/spartn/" target="_blank">project website</a> /
+                <a href="https://arxiv.org/abs/2301.08556" target="_blank">arXiv</a>
+                <br>
+                * <i>co-first authorship</i>
+                <br>
+                <p>We leverage neural radiance fields (NeRFs) to generate perturbed end-effector wrist camera viewpoints while simultaneously calculating corrective actions in order to improve absolute success rates of 6-DoF robotic grasping policies by 22.5% on average.</p>
+              </td>
+            </tr>
+
+
+
+            <tr onmouseout="givingrobots_stop()" onmouseover="givingrobots_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='giving-robots-a-hand_video'><video  width=200px height=100% muted autoplay loop>
+                  <source src="images/giving-robots-a-hand_video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://giving-robots-a-hand.github.io/" target="_blank">
+                  <span class="papertitle">Giving Robots a Hand: Learning Generalizable Manipulation with Eye-in-Hand Human Video Demonstrations</span>
+                </a>
+                <br>
+                <strong>Moo Jin Kim</strong>,
+                <a href="https://jiajunwu.com/" target="_blank">Jiajun Wu</a>,
+                <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">Chelsea Finn</a>
+                <br>
+                <em>NeurIPS Deep Reinforcement Learning Workshop 2022</em>
+                <br>
+                <a href="https://giving-robots-a-hand.github.io/" target="_blank">project website</a> /
+                <a href="https://arxiv.org/abs/2307.05959" target="_blank">arXiv</a>
+                <br>
+                <p>We augment narrow robotic imitation datasets with broad unlabeled human video demonstrations to greatly enhance the generalization of eye-in-hand visuomotor policies. Although a clear visual domain gap exists between human and robot data, our framework does not need to employ any explicit domain adaptation method and enables robots to generalize to both new environment configurations and new tasks that are unseen in the robot demonstration data.</p>
+              </td>
+            </tr>
+
+
+
+            <tr onmouseout="sfh_stop()" onmouseover="sfh_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <!-- <div class="one">
+                  <div class="two" id='sfh_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/sfh_after.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/sfh_before.jpg' width="160">
+                </div> -->
+                <div class="one">
+                  <div class="two" id='sfh_image'>
+                    <img src='images/sfh.png' width="200"></div>
+                  <img src='images/sfh.png' width="200">
+                </div>
+                <script type="text/javascript">
+                  function sfh_start() {
+                    document.getElementById('sfh_image').style.opacity = "1";
+                  }
+                  function sfh_stop() {
+                    document.getElementById('sfh_image').style.opacity = "0";
+                  }
+                  sfh_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://sites.google.com/view/seeing-from-hands/" target="_blank">
+                  <span class="papertitle">Vision-Based Manipulators Need to Also See from Their Hands</span>
+                </a>
+                <br>
+                <a href="https://www.kylehsu.org/" target="_blank">Kyle Hsu*</a>,
+                <strong>Moo Jin Kim*</strong>,
+                <a href="https://rmrafailov.github.io/" target="_blank">Rafael Rafailov</a>,
+                <a href="https://jiajunwu.com/" target="_blank">Jiajun Wu</a>,
+                <a href="https://ai.stanford.edu/~cbfinn/" target="_blank">Chelsea Finn</a>
+                <br>
+                <em>ICLR 2022</em> &nbsp; <font color="red"><strong>(Oral Presentation: Top 1.6% of submissions)</strong></font>
+                <br>
+                <a href="https://sites.google.com/view/seeing-from-hands/" target="_blank">project website</a> /
+                <a href="https://arxiv.org/abs/2203.12677" target="_blank">arXiv</a> /
+                <a href="https://github.com/moojink/cube-grasping" target="_blank">code</a>
+                <br>
+                * <i>co-first authorship; order determined by coin flip</i>
+                <br>
+                <p>We conduct extensive experiments to show that utilizing a hand-centric (eye-in-hand) visual perspective consistently improves training efficiency and out-of-distribution generalization in vision-based robotic manipulation. These benefits hold across a variety of learning algorithms, experimental settings, and distribution shifts. When hand-centric observability is not sufficient, we propose a simple yet effective approach to incorporate a third-person information stream while regularizing it via a variational information bottleneck to prevent overfitting.</p>
+              </td>
+            </tr>
+
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Teaching/Mentoring</h2>
+                <p>
+                  I enjoy teaching and mentoring students. In the past, I have served as:
+                </p>
+                <ul>
+                  <li>Head TA for <a href="http://cs231n.stanford.edu/2022/" target="_blank">CS231N</a> (Spring 2022)</li>
+                  <li>Founder and director of <a href="https://deeplearningportal.github.io/" target="_blank">Deep Learning Portal</a>, an AI mentorship and outreach program providing high-quality, personalized deep learning education to disadvantaged college students</li>
+                  <li>Research mentor for <a href="https://www-dev.cs.stanford.edu/linxs" target="_blank">LINXS</a>, a Stanford CS outreach program (Summer 2023)</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Invited Talks & Media</h2>
+                <ul>
+                  <li>National Public Radio (NPR): <a href="https://www.npr.org/2025/03/17/nx-s1-5323897/researchers-are-rushing-to-build-ai-powered-robots-but-will-they-work" target="_blank">News article</a> & <a href="https://www.npr.org/2025/03/17/nx-s1-5231022/researchers-are-now-putting-ai-into-robots-to-do-physical-tasks" target="_blank">audio broadcast</a> (03/2025)</li>
+                  <li>University of Waterloo (11/2024)</li>
+                  <li>NVIDIA (10/2024)</li>
+                  <li>Waymo (08/2024)</li>
+                  <li>OpenAI (08/2024)</li>
+                  <li>Hugging Face (07/2024, <a href="https://youtu.be/-0s0v3q7mBk?si=QkSJVkpNqgupXHGB" target="_blank">recording</a>)</li>
+                  <li>Google DeepMind (06/2024)</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody></table>
+
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:center;font-size:small;">
+                  Website template from <a href="https://github.com/jonbarron/jonbarron_website">here</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
